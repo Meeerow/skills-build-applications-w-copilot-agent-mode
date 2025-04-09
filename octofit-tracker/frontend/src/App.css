@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #0f0be4; /* White text for visibility */
+  color: #ffffff; /* White text for visibility */
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
@@ -152,4 +152,34 @@ button:hover {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Link styles */
+a {
+  color: #4682b4; /* Steel blue */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #5a9bd4; /* Lighter steel blue */
+  text-decoration: underline;
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+/* Favicon styles */
+.favicon {
+  display: none; /* Favicon is handled in the public folder */
 }
